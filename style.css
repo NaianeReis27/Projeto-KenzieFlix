@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0);
+    align-items: center;
+}
+.boxExterno{
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(14, 13, 13);
+    border-radius:12px;  
+}
+.logo{
+    width: 229px;
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+}
+.logocontainer, .botaoContainer{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-top:73px;
+    margin-bottom: 61px;
+    color: white;
+    font-size: 32px;
+    font-family: IBM Plex Sans;  
+}
+.containerflex{
+    max-width: 700px;
+    display:flex;
+    flex-wrap: wrap;
+    background: rgb(14, 13, 13);
+    margin: 0 auto;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.box{
+    text-align:center;
+    margin: 5px;
+    box-sizing: content-box;    
+}
+figure{
+    width:160px;
+    height: 160px;
+    background: gray;
+    border-radius: 15px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+}
+.nome{
+    color: white;
+    font-size: 14px;
+    font-family: IBM Plex Sans;
+    font-weight: 300;
+    margin-top: 16px;
+    margin-bottom: 240;
+}
+.botao{
+    font-size: 16px;
+    font-family: IBM Plex Sans;
+    border: 1.5px solid white;
+    color: rgb(255, 255, 255);
+    width: 206px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 42.5px;
+    box-sizing: border-box;
+    margin-bottom: 88px;
+    margin-top:102px ;
+    border-radius: 8px;
+}
+
+ /* animação */ 
+ 
+figure:hover{
+    border: 3px solid white;
+}
+.perfil:hover{
+    transform: scale(1.25, 1.25); 
+}
+.botao:hover{
+    background: white;
+    color: black;
+}
+.containerCirculo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.simbolo{
+    opacity: 50%;  
+}
+.containerCirculo:hover .simbolo{
+    opacity: 100%;
+}
